@@ -1,0 +1,20 @@
+{
+    "name": "fbf/mysql-reconnect",
+    "description": "A PDO wrapper that reconnects automatically and re-issues queries on receiving MySQL server timeout errors",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Neil Crookes",
+            "email": "neil.crookes@fivebyfiveuk.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Fbf\\MysqlReconnect\\": "src/"
+        }
+    }
+}
